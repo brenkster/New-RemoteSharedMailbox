@@ -14,3 +14,8 @@ It creates a remote shared mailbox, a distribution group for full access and sen
 Then login to Exchange Online, disable POP, IMAP, Activesync and OWA, and resets the proxy settings if neccesary.
 
 This can also be used to create usermailboxes, just tweak it to your needs.
+
+Adjust to reflect your environment.
+Lines 27 to 31 need to be changed.
+Line 119 needs your AADConnect servername
+Line 134 needs your proxy dns name
