@@ -153,7 +153,7 @@ Sleep 10
 
 # Add the distributiongroup to the sharedmailbox with Send-as
 Write-Host "Setting Mailbox Send-as Permissions" -ForegroundColor green
-Add-ADPermission –Identity "$Alias" –user "SM.$Alias" –ExtendedRights 'Send-as' -DomainController $DomainController
+Add-ADPermission -Identity "$Alias" -user "SM.$Alias" -ExtendedRights 'Send-as' -DomainController $DomainController
 Write-Host "Send-as Permissions set" -ForegroundColor green
 
 Sleep 10
